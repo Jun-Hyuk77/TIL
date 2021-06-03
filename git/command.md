@@ -78,12 +78,22 @@ git 의 현재 상태를 확인하는 명령어
   ```
 
 
+---------------------------------------------------------------------------------------
 
+##### git 최초 등록시
 
-##### github 수정업로드 3단계
+```bash
+git init
+git add .
+git commit -m "update"
+git remote add origin <URL>
+git push origin master
+```
 
-`git add .` 
+##### git 업데이트 등록시
 
-`git commit -m "update"`
-
-`git push origin master`
+```bash 
+git add .
+git commit -m "update"
+git push origin master
+```
