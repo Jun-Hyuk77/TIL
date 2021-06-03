@@ -77,4 +77,13 @@ git 의 현재 상태를 확인하는 명령어
   git status
   ```
 
-  
+
+
+
+##### github 수정업로드 3단계
+
+`git add .` 
+
+`git commit -m "update"`
+
+`git push origin master`
