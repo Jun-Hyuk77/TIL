@@ -2,7 +2,7 @@
 
 > 기본 명령어를 정리
 
-
+​            [         ![img](command.assets/git_three_tree.png)       ](https://seunghyum.github.io/assets/images/posts/git_three_tree.png)        
 
 ##### init
 
@@ -23,3 +23,58 @@ working directory 에 있는 파일을 staging area에 올리는 명령어.
 git add <file name>
 ```
 
+
+
+##### commit
+
+staging area에 있는 파일들을 하나의 commit으로 저장하는 명령어
+
+- 기본사용법
+  - `-m` : 커밋 메시지를 작성하기 위한 옵션
+  - ``` git commit -m "message"```
+
+
+
+##### remote 
+
+원격저장소를 관리하기 위한 명령어
+
+- add : 원격 저장소를 추가
+
+  ```  git remote add <remote name> <URL>
+  git remote add <remote name> <URL>
+  ```
+
+- remove : 원격 저장소를 제거
+
+  ```bash
+  git remote remove <remote name>
+  ```
+
+
+
+##### push
+
+로컬에 저장되어있는 커밋들을 원격저장소에 업로드 하는 명령어
+
+
+
+- 기본 명령어
+
+  ```bash
+  git push origin master
+  ```
+
+  
+
+##### status
+
+git 의 현재 상태를 확인하는 명령어
+
+- 기본 명령어
+
+  ```bash
+  git status
+  ```
+
+  

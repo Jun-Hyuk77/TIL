@@ -33,7 +33,10 @@
 - 폴더를 생성하는 명령어	
 - `mkdir <directory name>`
 
+##### touch 
 
+- 파일을 생성하는 명령어
+- `touch <file name>`
 
 
 
